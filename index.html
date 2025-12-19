@@ -8,25 +8,102 @@
 <body>
     <header>
         <nav>
-            <a href="about-me">About Me</a>
-            <a href="resume">Resume</a>
-            <a href="projects">Projects</a>
-            <a href="contact">Contact</a>
+            <a href="#about-me">About Me</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <!--About me Section-->
-    <section id="about-me"></section>
+    <section id="about-me">
+        <h1>Jaren<span>Wheeler</span></h1> <!--include span for different styling of first and last name-->
+        <img src="imgs/main-pic.jpeg">
+    </section>
 
     <!--Resume Section-->
-    <section id="resume"></section>
+    <section id="resume">
+        <h2>Resume</h2>
+
+        <!--Include on-page resume showing skills and experience-->
+        <div>  
+            <!--Skills-->
+            <div></div>
+            <!--Experience-->
+            <div></div>
+        </div>
+
+        <!--Link real resume-->
+        <a href="assets/Jaren_Wheeler_Resume.pdf">Download my resume</a>
+    </section>
 
     <!--Projects Section-->
-    <section id="projects"></section>
+    <section id="projects">
+         <h2>Projects</h2>
+
+         <!--container for projects. Each project is a div-->
+         <div>
+            <div id="home-run-delivery">
+                <div>
+                    <!--Explanation and skills used-->
+                    <p></p>
+                    <a href="https://github.com/Jaren-Wheeler/HomeRun-Delivery">Github Repo</a>
+                    <a href="">See the website</a>
+                </div>
+                <img href="" alt="homerun delivery pictures">
+            </div>
+            <div id="swip-swap-marketplace">
+                <div>
+                    <!--Explanation and skills used-->
+                    <p></p>
+                    <a href="">Github Repo</a>
+                    <a href="">See the website</a>
+                </div>
+                <img href="https://github.com/Luke8877/SwipSwapMVC" alt="SwipSwap Marketplace pictures"> 
+            </div>
+            <div id="campus-hire">
+                <div>
+                    <!--Explanation and skills used-->
+                    <p></p>
+                    <a href="https://github.com/Jaren-Wheeler/CampusJobBoard">Github Repo</a>
+                    <a href="">See the website</a>
+                </div>
+                <img href="" alt="CampusHire pictures"> 
+            </div>
+         </div>
+    </section>
 
     <!--Contact Section-->
-    <section id="contact"></section>
+    <section id="contact">
+         <h2>Contact Me</h2>
 
-    <footer></footer>
+         <h3>My Socials</h3>
+         <div>
+            <a id="linked-in-contact" href="https://www.linkedin.com/in/jaren-wheeler-261963251/">LinkedIn</a>
+         </div>
+         
+         <h3>Send me an email:</h3>
+         <form>
+            <div>
+                <label id="first-name-label" name="first-name-label">First Name</label>
+                <input for="first-name-label"/>
+
+                <label id="last-name-label" name="last-name-label">Last Name</label>
+                <input for="last-name-label"/>
+            </div>
+        
+            <label id="contact-info-label" name="contact-info-label">Your Contact Information</label>
+            <input for="contact-info-label"/>
+
+            <label id="message-label" name="message-label">Message</label>
+            <input for="message-label"/>
+
+            <button id="form-submit-btn">Submit</button>
+         </form>
+    </section>
+
+    <footer>
+        Copyright, Jaren Wheeler, 2025.
+    </footer>
 </body>
 </html>
