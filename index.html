@@ -3,105 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaren Wheeler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <title>Jaren Wheeler</title>  
 </head>
 <body>
     <header>
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#resume">Resume</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <button><a href="#about-me">About Me</a></button>
+            <button><a href="#resume">Resume</a></button>
+            <button><a href="#projects">Projects</a></button>
+            <button><a href="#contact">Contact</a></button>
         </nav>
     </header>
 
-    <!--About me Section-->
-    <section id="about-me">
-        <h1>Jaren<span>Wheeler</span></h1> <!--include span for different styling of first and last name-->
-        <img src="imgs/main-pic.jpeg">
-    </section>
-
-    <!--Resume Section-->
-    <section id="resume">
-        <h2>Resume</h2>
-
-        <!--Include on-page resume showing skills and experience-->
-        <div>  
-            <!--Skills-->
-            <div></div>
-            <!--Experience-->
-            <div></div>
-        </div>
-
-        <!--Link real resume-->
-        <a href="assets/Jaren_Wheeler_Resume.pdf">Download my resume</a>
-    </section>
-
-    <!--Projects Section-->
-    <section id="projects">
-         <h2>Projects</h2>
-
-         <!--container for projects. Each project is a div-->
-         <div>
-            <div id="home-run-delivery">
-                <div>
-                    <!--Explanation and skills used-->
-                    <p></p>
-                    <a href="https://github.com/Jaren-Wheeler/HomeRun-Delivery">Github Repo</a>
-                    <a href="">See the website</a>
-                </div>
-                <img href="" alt="homerun delivery pictures">
+    <main>
+        <!--About me Section-->
+        <section id="about-me">
+            <div id="title-div">
+                <h1 class="f-name title">Jaren</h1>
+                <h1 class="l-name title">Wheeler</h1>
+                <p class="tag-line title">A software engineer, with full stack experience.</p>
             </div>
-            <div id="swip-swap-marketplace">
-                <div>
-                    <!--Explanation and skills used-->
-                    <p></p>
-                    <a href="">Github Repo</a>
-                    <a href="">See the website</a>
-                </div>
-                <img href="https://github.com/Luke8877/SwipSwapMVC" alt="SwipSwap Marketplace pictures"> 
-            </div>
-            <div id="campus-hire">
-                <div>
-                    <!--Explanation and skills used-->
-                    <p></p>
-                    <a href="https://github.com/Jaren-Wheeler/CampusJobBoard">Github Repo</a>
-                    <a href="">See the website</a>
-                </div>
-                <img href="" alt="CampusHire pictures"> 
-            </div>
-         </div>
-    </section>
 
-    <!--Contact Section-->
-    <section id="contact">
-         <h2>Contact Me</h2>
+        </section>
 
-         <h3>My Socials</h3>
-         <div>
-            <a id="linked-in-contact" href="https://www.linkedin.com/in/jaren-wheeler-261963251/">LinkedIn</a>
-         </div>
-         
-         <h3>Send me an email:</h3>
-         <form>
+        <!--Resume Section-->
+        <section id="resume">
+            <h2>Resume</h2>
+
+            <!--Include on-page resume showing skills and experience-->
+            <div>  
+                <!--Skills-->
+                <div></div>
+                <!--Experience-->
+                <div></div>
+            </div>
+
+            <!--Link real resume-->
+            <a href="assets/Jaren_Wheeler_Resume.pdf">Download my resume</a>
+        </section>
+
+        <!--Projects Section-->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <!--container for projects. Each project is a div-->
             <div>
-                <label id="first-name-label" name="first-name-label">First Name</label>
-                <input for="first-name-label"/>
-
-                <label id="last-name-label" name="last-name-label">Last Name</label>
-                <input for="last-name-label"/>
+                <div id="home-run-delivery">
+                    <div>
+                        <!--Explanation and skills used-->
+                        <p></p>
+                        <a href="https://github.com/Jaren-Wheeler/HomeRun-Delivery">Github Repo</a>
+                        <a href="">See the website</a>
+                    </div>
+                    <img href="" alt="homerun delivery pictures">
+                </div>
+                <div id="swip-swap-marketplace">
+                    <div>
+                        <!--Explanation and skills used-->
+                        <p></p>
+                        <a href="">Github Repo</a>
+                        <a href="">See the website</a>
+                    </div>
+                    <img href="https://github.com/Luke8877/SwipSwapMVC" alt="SwipSwap Marketplace pictures"> 
+                </div>
+                <div id="campus-hire">
+                    <div>
+                        <!--Explanation and skills used-->
+                        <p></p>
+                        <a href="https://github.com/Jaren-Wheeler/CampusJobBoard">Github Repo</a>
+                        <a href="">See the website</a>
+                    </div>
+                    <img href="" alt="CampusHire pictures"> 
+                </div>
             </div>
-        
-            <label id="contact-info-label" name="contact-info-label">Your Contact Information</label>
-            <input for="contact-info-label"/>
+        </section>
 
-            <label id="message-label" name="message-label">Message</label>
-            <input for="message-label"/>
+        <!--Contact Section-->
+        <section id="contact">
+            <h2>Contact Me</h2>
 
-            <button id="form-submit-btn">Submit</button>
-         </form>
-    </section>
+            <h3>My Socials</h3>
+            <div>
+                <a id="linked-in-contact" href="https://www.linkedin.com/in/jaren-wheeler-261963251/">LinkedIn</a>
+            </div>
+            
+            <h3>Send me an email:</h3>
+            <form>
+                <div>
+                    <label id="first-name-label" name="first-name-label">First Name</label>
+                    <input for="first-name-label"/>
 
+                    <label id="last-name-label" name="last-name-label">Last Name</label>
+                    <input for="last-name-label"/>
+                </div>
+            
+                <label id="contact-info-label" name="contact-info-label">Your Contact Information</label>
+                <input for="contact-info-label"/>
+
+                <label id="message-label" name="message-label">Message</label>
+                <input for="message-label"/>
+
+                <button id="form-submit-btn">Submit</button>
+            </form>
+        </section>
+   </main>
     <footer>
         Copyright, Jaren Wheeler, 2025.
     </footer>
