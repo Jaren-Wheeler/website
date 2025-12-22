@@ -42,6 +42,21 @@ header nav button a {
     text-decoration-thickness: 2px;
 }
 
+#nav-button {
+    display: none;
+    height: 2rem;
+    background: none;
+    border: 3px solid red;
+    border-radius: 8px;
+}
+
+#nav-button a {
+    padding: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+
 /* Section h2 styling */
 
 section h2 {
