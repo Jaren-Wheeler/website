@@ -103,7 +103,7 @@ section h2 {
 
 #about-me {
    background-color: #5c1218;
-    height: 100vh;
+    height: auto;
 }
 
 #about-me h2 {
@@ -113,20 +113,38 @@ section h2 {
 
 #bio {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 5rem;
+    align-items: center;
 }
 
 #blurb {
     color: white;
     font-family: arial;
-    width: 40%;
+    width: 50%;
     margin: 2rem;
 }
 
 #blurb p {
     margin-bottom: 1.5rem;
+    line-height: 1.7;
 }
+
+#blurb-imgs {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#blurb-imgs img {
+    max-width: 45%;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    display: block;
+}
+
 /* Projects Section Styling */
 #projects {
     height: 100vh;
