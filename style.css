@@ -1,10 +1,13 @@
 * {
    box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
 }
 
 body {
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 /* header styling */
@@ -37,9 +40,18 @@ header nav button a {
     text-decoration-thickness: 2px;
 }
 
+/* Section h2 styling */
+
+section h2 {
+    font-size: 64px;
+    font-family: arial;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
 /* Homepage styling */
 
-#about-me {
+#home {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -53,11 +65,7 @@ header nav button a {
     );
     height: 100vh;
 }
-s
-#about-me img {
-    width: 100%;
-    height: 50vh;
-}
+
 
 #title-div {
     display: flex;
@@ -91,9 +99,73 @@ s
     align-self: end;
 }
 
-/* Resume section */
+/* About me section */
 
-#resume {
-    background: linear-gradient(rgb(131, 12, 36), rgb(174, 188, 202));
+#about-me {
+   background-color: #5c1218;
+    height: auto;
+}
+
+#about-me h2 {
+    color: white;
+    text-decoration-color: #c1121f;
+}
+
+#bio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+#blurb {
+    color: white;
+    font-family: arial;
+    width: 50%;
+    margin: 2rem;
+}
+
+#blurb p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+#blurb-imgs {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#blurb-imgs img {
+    max-width: 45%;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Projects Section Styling */
+#projects {
     height: 100vh;
+}
+
+#projects h2 {
+    text-decoration-color: #c1121f;
+}
+
+/* Contact Me Section Styling */
+#contact {
+    height: 100vh;
+    background: linear-gradient(
+        #000000 0%,
+        #1a0707 35%,
+        #3b0d0d 65%,
+        #5c1218 100%
+    );
+}
+
+#contact h2 {
+    color: #c1121f;
+    text-decoration-color: white;
 }
