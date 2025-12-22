@@ -1,10 +1,13 @@
 * {
    box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
 }
 
 body {
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 /* header styling */
@@ -37,6 +40,15 @@ header nav button a {
     text-decoration-thickness: 2px;
 }
 
+/* Section h2 styling */
+
+section h2 {
+    font-size: 64px;
+    font-family: arial;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
 /* Homepage styling */
 
 #home {
@@ -90,6 +102,52 @@ header nav button a {
 /* About me section */
 
 #about-me {
-    background: linear-gradient(rgb(131, 12, 36), rgb(174, 188, 202));
+   background-color: #5c1218;
     height: 100vh;
+}
+
+#about-me h2 {
+    color: white;
+    text-decoration-color: #c1121f;
+}
+
+#bio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+#blurb {
+    color: white;
+    font-family: arial;
+    width: 40%;
+    margin: 2rem;
+}
+
+#blurb p {
+    margin-bottom: 1.5rem;
+}
+/* Projects Section Styling */
+#projects {
+    height: 100vh;
+}
+
+#projects h2 {
+    text-decoration-color: #c1121f;
+}
+
+/* Contact Me Section Styling */
+#contact {
+    height: 100vh;
+    background: linear-gradient(
+        #000000 0%,
+        #1a0707 35%,
+        #3b0d0d 65%,
+        #5c1218 100%
+    );
+}
+
+#contact h2 {
+    color: #c1121f;
+    text-decoration-color: white;
 }
