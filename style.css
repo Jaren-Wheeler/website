@@ -16,6 +16,8 @@ header {
     background-color:rgb(28, 28, 29);
     display: flex;
     justify-content: flex-end;
+    position: sticky;
+    top: 0;
 }
 
 header nav button {
@@ -38,6 +40,21 @@ header nav button a {
     text-decoration: underline;
     text-decoration-color: #c1121f;
     text-decoration-thickness: 2px;
+}
+
+#nav-button {
+    display: none;
+    height: 2rem;
+    background: none;
+    border: 3px solid red;
+    border-radius: 8px;
+}
+
+#nav-button a {
+    padding: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
 }
 
 /* Section h2 styling */
@@ -99,6 +116,26 @@ section h2 {
     align-self: end;
 }
 
+#resume-link {
+    position: absolute;
+    bottom: 4rem;
+    right: 4rem;
+    height: 2rem;
+    background: none;
+    border: 3px solid red;
+    border-radius: 8px;
+}
+
+#resume-link a {
+    padding: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+#resume-link:hover {
+    background: white;
+}
 /* About me section */
 
 #about-me {
