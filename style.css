@@ -246,9 +246,7 @@ section h2 {
     padding-top: 5rem;
     padding-bottom: 5rem;
     color: white;
-    text-decoration: underline;
-    text-decoration-color: #c1121f;
-    text-decoration-thickness: 2px;
+   
     height: auto;
 }
 
@@ -283,12 +281,22 @@ section h2 {
 
 input {
     height: 1.5rem;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1rem;
+    padding: 0.5rem;
 }
 
 label {
     font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #c1121f;
+    text-decoration-thickness: 2px;
 }
 
 textarea {
     height: 25vh;
+    font-family: arial;
+    font-size: 1rem;
+    padding: 0.5rem;
 }
