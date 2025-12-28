@@ -136,11 +136,14 @@ section h2 {
 #resume-link:hover {
     background: white;
 }
+
 /* About me section */
 
 #about-me {
-   background-color: #5c1218;
+    background-color: #5c1218;
     height: auto;
+    padding-bottom: 1.5rem;
+    min-height: 100vh;
 }
 
 #about-me h2 {
@@ -203,6 +206,17 @@ section h2 {
     margin-top: 5rem;
     margin-bottom: 5rem;
     gap: 1rem;
+    font-family: arial;
+    line-height: 1.7;
+}
+
+.project-card h3 {
+    color: #c1121f;
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    text-align: center;
 }
 
 .project-desc {
@@ -210,7 +224,6 @@ section h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
 }
 
 .project-pics {
@@ -230,9 +243,77 @@ section h2 {
         #3b0d0d 65%,
         #5c1218 100%
     );
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: white;
+   
+    height: auto;
 }
 
 #contact h2 {
     color: #c1121f;
     text-decoration-color: white;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    gap: 1rem;
+    font-family: arial;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.25rem;
+}
+
+#name-div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+input {
+    height: 1.5rem;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+label {
+    font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #c1121f;
+    text-decoration-thickness: 2px;
+}
+
+textarea {
+    height: 25vh;
+    font-family: arial;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+#form-submit-btn {
+    width: 10%;
+    align-self: flex-end;
+    color: white;
+    font-weight: bold;
+    background: none;
+    font-size: 1rem;
+    padding: 0.10rem;
+    border: 3px solid white;
+    border-radius: 0.5rem;
+}
+
+#form-submit-btn:hover {
+    border: 3px solid #c1121f;
+    color: #c1121f;
 }
