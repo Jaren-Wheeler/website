@@ -145,21 +145,28 @@
             </div>
             
             <h3>Send me an email:</h3>
-            <form>
-                <div>
-                    <label id="first-name-label" name="first-name-label">First Name</label>
-                    <input for="first-name-label"/>
-
-                    <label id="last-name-label" name="last-name-label">Last Name</label>
-                    <input for="last-name-label"/>
+            <form id="contact-form">
+                <div id="name-div">
+                    <div class="input-div">
+                        <label id="first-name-label" name="first-name-label">First Name</label>
+                        <input for="first-name-label"/>
+                    </div>
+                    
+                    <div class="input-div">
+                        <label id="last-name-label" name="last-name-label">Last Name</label>
+                        <input for="last-name-label"/>
+                    </div>   
                 </div>
-            
-                <label id="contact-info-label" name="contact-info-label">Your Contact Information</label>
-                <input for="contact-info-label"/>
-
-                <label id="message-label" name="message-label">Message</label>
-                <input for="message-label"/>
-
+                <div class="input-div">
+                    <label id="contact-info-label" name="contact-info-label">Your Email Address</label>
+                    <input for="contact-info-label"/>
+                </div>
+                
+                <div class="input-div">
+                    <label id="message-label" name="message-label">Message</label>
+                    <textarea for="message-label"></textarea>
+                </div>
+                
                 <button id="form-submit-btn">Submit</button>
             </form>
         </section>
