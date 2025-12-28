@@ -300,3 +300,20 @@ textarea {
     font-size: 1rem;
     padding: 0.5rem;
 }
+
+#form-submit-btn {
+    width: 10%;
+    align-self: flex-end;
+    color: white;
+    font-weight: bold;
+    background: none;
+    font-size: 1rem;
+    padding: 0.10rem;
+    border: 3px solid white;
+    border-radius: 0.5rem;
+}
+
+#form-submit-btn:hover {
+    border: 3px solid #c1121f;
+    color: #c1121f;
+}
