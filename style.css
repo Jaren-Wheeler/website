@@ -136,11 +136,14 @@ section h2 {
 #resume-link:hover {
     background: white;
 }
+
 /* About me section */
 
 #about-me {
-   background-color: #5c1218;
+    background-color: #5c1218;
     height: auto;
+    padding-bottom: 1.5rem;
+    min-height: 100vh;
 }
 
 #about-me h2 {
@@ -203,6 +206,17 @@ section h2 {
     margin-top: 5rem;
     margin-bottom: 5rem;
     gap: 1rem;
+    font-family: arial;
+    line-height: 1.7;
+}
+
+.project-card h3 {
+    color: #c1121f;
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    text-align: center;
 }
 
 .project-desc {
@@ -210,7 +224,6 @@ section h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
 }
 
 .project-pics {
